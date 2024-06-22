@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightslategrey;
+  background-image: url('https://image.shutterstock.com/image-photo/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.inputBox {
+  padding: 12px;
+  width: 100%;
+  max-width: 347px;
+  position: relative;
+}
+
+.inputBox input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  padding: 9px;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  z-index: 100;
+  outline: none;
+}
+
+.inputBox label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff;
+  transition: bottom 0.3s ease;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-50px);
+}
+
+.container .btn {
+  width: 100%;
+  background-color: 1px transparent;
+}
+
+.container .form-userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 68px;
+  z-index: 1;
+  color: #fff;
+  border: transparent;
+  transform: translateX(0) translateY(-50px);
+}
+
+.inputBox .Mui-focused {
+  color: green;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .container {
+    padding: 20px 30px;
+  }
+
+  .container .form-userIcon {
+    font-size: 58px;
+    transform: translateX(0) translateY(-30px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px 25px;
+  }
+
+  .inputBox {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .container .form-userIcon {
+    font-size: 48px;
+    transform: translateX(0) translateY(-20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px 20px;
+  }
+
+  .inputBox {
+    padding: 8px;
+    width: 100%;
+  }
+
+  .container .form-userIcon {
+    font-size: 38px;
+    transform: translateX(0) translateY(-10px);
+  }
+
+  .form {
+    transform: translateY(0);
+  }
+}
