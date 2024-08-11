@@ -1,0 +1,17 @@
+[
+    {
+        "tag": "Order Online",
+        "label": "Your cravings, delivered fresh",
+        "img": "https://t4.ftcdn.net/jpg/02/42/39/29/360_F_242392945_5Xc5VjsBFUMFR3ZZdQV1FL6LgB0XIvhD.jpg"
+    },
+    {
+        "tag": "Dining",
+        "label": "Elevate your dining experience.",
+        "img": "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "tag": "NightLife and Clubs",
+        "label": "Discover nightlife, one party at a time.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuxtfpGFdKTvKOD2h3DsHS6djboHVJNNTUbQ&s"
+    }
+]

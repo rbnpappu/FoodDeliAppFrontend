@@ -8,10 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: lightslategrey;
-  background-image: url('https://image.shutterstock.com/image-photo/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: #fff;
 }
 
 .container {

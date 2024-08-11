@@ -1,6 +1,4 @@
-
-import './App.css';
-// import Form from './components/Form/Form';
+import './index.css'
 import { LandingPage } from './Pages/LandingPage';
 
 
